@@ -53,7 +53,12 @@ You can then install this project template using the following command:
 ~~~
 composer create-project --prefer-dist yiisoft/yii2-app-basic basic
 ~~~
-
+~~~
+php yii migrate --migrationPath=@yii/rbac/migrations",
+~~~
+~~~
+php yii migrate",
+~~~
 Now you should be able to access the application through the following URL, assuming `basic` is the directory
 directly under the Web root.
 

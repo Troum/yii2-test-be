@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=127.0.0.1;dbname=rba',
+    'dsn' => 'sqlite:@app/data/mydatabase.sqlite',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',
